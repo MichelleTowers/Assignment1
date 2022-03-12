@@ -1,6 +1,8 @@
-min-height: 100%
-    body {
-    background: linear-gradient(#EAD7d7 70%, #FFFFFF 30%);
+html {
+    min-height: 100%; 
+}	
+body {
+    background: linear-gradient(#EAD7d7 60%, #FFFFFF 40%);
 }
 h1 {
     color: #412234;

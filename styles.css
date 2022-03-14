@@ -24,9 +24,9 @@ html, body { background: #250b2c}
   padding-left: 40px;
   padding-top: 1px;
   padding-bottom: 20px;
-  margin: 60px;
+  margin: 20px;
   height: 200px;
-  max-width: 1000px;
+  max-width: 1500px;
   border-bottom-style: solid;
   border-color: #ba8cbe;
   border-width: 7px;
@@ -38,15 +38,14 @@ img {
 
 .column {
   float: left;
-  width: 45%;
+  width: 46%;
   padding: 15px;
 }
 .column2 {
   float: left;
-  width: 93%;
+  width: 94%;
   padding: 15px;
 }
-
 
 .contact {
   color: #ba8cbe;
@@ -59,9 +58,9 @@ img {
   background: #361b36;
   padding-top: 1px;
   padding-left: 40px;
-  margin: 60px;
-  height: 2000px;
-  max-width: 1000px;
+  margin: 20px;
+  height: 3000px;
+  max-width: 1500px;
   border-bottom-style: solid;
   border-color: #ba8cbe;
   border-width: 7px; 

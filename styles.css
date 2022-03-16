@@ -42,7 +42,7 @@ img {
   padding-top: 1px;
   padding-left: 40px;
   margin: 20px;
-  height: 6050px;
+  height: 5860px;
   max-width: 1500px;
   border-bottom-style: solid;
   border-color: #efe6dd;
@@ -75,6 +75,11 @@ img {
   margin-top: 20px;
 }
 
+.info {
+  color: #494850;
+  font-family: Garamond, serif;
+  font-size: 18px;
+}
 .column2 {
   float: left;
   width: 94%; /* "The column-width property specifies a suggested, optimal width for the columns." (w3schools n.d) */

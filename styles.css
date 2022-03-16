@@ -1,83 +1,99 @@
-html {
-  background-color: #494850;
-  max-height: 100%;
-  max-width: 100%
-}
-
-body {
-  margin: 0;
-}
-
 a:link {
-  color:#5497a7
+  color:#efe6dd
 }
 
 a:visited {
-  color:#5497a7 
+  color:#efe6dd 
 }
 
+html, body { 
+  background: #494850
+}
+
+#background {
+  max-width: 1500px;
+  margin: auto;
+}
 .header {
-  color: #494850;
-  margin-left: 16px;
+  font-size: 20px;
   font-family: Helvetica;
+  color: #efe6dd;
 }
 
 .box {
- background-color: #efe6dd;
- width: 1300px;
- height: 1000px;
+  background: #5497a7;
+  padding-left: 40px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  margin: 20px;
+  height: 200px;
+  max-width: 1500px;
+  border-bottom-style: solid;
+  border-color: #efe6dd;
+  border-width: 7px;
+}
+
+img { 
+  float: left;
+}
+
+.column {
+  float: left;
+  width: 46%;
+  padding: 15px;
+}
+.column2 {
+  float: left;
+  width: 94%;
+  padding: 15px;
 }
 
 .contact {
   color: #494850;
   font-family: Garamond, serif;
-  font-size: 16px;
-  margin-left: 8px;
+  font-size: 20px;
+  max-width: 1000px;
 }
 
-img { 
-  margin-left: 20px;
+.box2 {
+  background: #5497a7;
+  padding-top: 1px;
+  padding-left: 40px;
+  margin: 20px;
+  height: 5250px;
+  max-width: 1500px;
+  border-bottom-style: solid;
+  border-color: #efe6dd;
+  border-width: 7px; 
 }
 
 .header2 {
-  color: #ff3864;
-  margin-left: 150px;
-  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
   font-family: Helvetica;
+  color: #ff3864;
 }
 
-.column {
-  float: left;
-  width: 8%;
-  padding: 15px;
-  margin-top: 30px;
-}
-
-.column2 {
-  float: left;
-  width: 80%;
-  padding: 15px;
-}
-
-.aboutme {
+.info {
   color: #494850;
   font-family: Garamond, serif;
-  font-size: 20px;
-  margin-left: 150px;
+  font-size: 18px;
 }
 
-.sidebar {
-  width: 300px;
+.textbox {
   background-color: #efe6dd;
-  position: fixed;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-
+  padding: 20px;
+  margin-top: 20px;
 }
 
-.picinfo {
-  color: #5497a7;
-  margin-left: 20px;
-  font-family: Helvetica;
+.box3 {
+  background: #5497a7;
+  padding-left: 40px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  margin: 20px;
+  max-width: 1500px;
+  border-bottom-style: solid;
+  border-color: #efe6dd;
+  border-width: 7px;
 }

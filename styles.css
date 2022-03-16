@@ -1,9 +1,9 @@
 a:link {
-  color:#efe6dd
+  color:#494850
 }
 
 a:visited {
-  color:#efe6dd 
+  color:#ff3864
 }
 
 html, body { 
@@ -14,11 +14,6 @@ html, body {
   max-width: 1500px;
   margin: auto;
 }
-.header {
-  font-size: 20px;
-  font-family: Helvetica;
-  color: #efe6dd;
-}
 
 .box {
   background: #5497a7;
@@ -27,25 +22,31 @@ html, body {
   padding-bottom: 20px;
   margin: 20px;
   height: 200px;
-  max-width: 1500px;
+  max-width: 1500px; /* "Using max-width instead, in this situation, will improve the browser's handling of small windows. This is important when making a site usable on small devices" (w3schools n.d) */ 
   border-bottom-style: solid;
   border-color: #efe6dd;
   border-width: 7px;
 }
+.header {
+  font-size: 20px;
+  font-family: Helvetica;
+  color: #efe6dd;
+}
 
 img { 
-  float: left;
+  float: left; /* "The following example specifies that an image should float to the left in a text:" (w3schools n.d) */
 }
 
-.column {
-  float: left;
-  width: 46%;
-  padding: 15px;
-}
-.column2 {
-  float: left;
-  width: 94%;
-  padding: 15px;
+.box2 {
+  background: #5497a7;
+  padding-top: 1px;
+  padding-left: 40px;
+  margin: 20px;
+  height: 5400px;
+  max-width: 1500px;
+  border-bottom-style: solid;
+  border-color: #efe6dd;
+  border-width: 7px; 
 }
 
 .contact {
@@ -55,29 +56,17 @@ img {
   max-width: 1000px;
 }
 
-.box2 {
-  background: #5497a7;
-  padding-top: 1px;
-  padding-left: 40px;
-  margin: 20px;
-  height: 5250px;
-  max-width: 1500px;
-  border-bottom-style: solid;
-  border-color: #efe6dd;
-  border-width: 7px; 
+.column {
+  float: left;
+  width: 46%; /* "The column-width property specifies a suggested, optimal width for the columns." (w3schools n.d) */
+  padding: 15px;
 }
 
 .header2 {
-  text-align: center;
+  text-align: center; /* "To just center the text inside an element, use text-align: center;" (w3schools n.d) */
   font-size: 20px;
   font-family: Helvetica;
   color: #ff3864;
-}
-
-.info {
-  color: #494850;
-  font-family: Garamond, serif;
-  font-size: 18px;
 }
 
 .textbox {
@@ -86,14 +75,8 @@ img {
   margin-top: 20px;
 }
 
-.box3 {
-  background: #5497a7;
-  padding-left: 40px;
-  padding-top: 1px;
-  padding-bottom: 20px;
-  margin: 20px;
-  max-width: 1500px;
-  border-bottom-style: solid;
-  border-color: #efe6dd;
-  border-width: 7px;
+.column2 {
+  float: left;
+  width: 94%; /* "The column-width property specifies a suggested, optimal width for the columns." (w3schools n.d) */
+  padding: 15px;
 }
